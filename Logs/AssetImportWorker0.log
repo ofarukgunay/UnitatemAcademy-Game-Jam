@@ -1,0 +1,230 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'tr' Physical Memory: 7987 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/shila/Desktop/unitatemacademy1-main
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60891
+Successfully changed project path to: C:/Users/shila/Desktop/unitatemacademy1-main
+C:/Users/shila/Desktop/unitatemacademy1-main
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5308] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 1116646527 [EditorId] 1116646527 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-87MP9TJB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [5308] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 1116646527 [EditorId] 1116646527 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-87MP9TJB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 584.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/shila/Desktop/unitatemacademy1-main/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x8a56)
+    Vendor:   Intel
+    VRAM:     3993 MB
+    Driver:   27.20.100.9664
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.168167 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 190.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.490 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8492ms)
+		BeginReloadAssembly (6849ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (7ms)
+		EndReloadAssembly (1212ms)
+			LoadAssemblies (6810ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (286ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (582ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (191ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (290ms)
+				ProcessInitializeOnLoadMethodAttributes (87ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.031610 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shila\Desktop\unitatemacademy1-main\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shila\Desktop\unitatemacademy1-main\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 265.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.384 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10386ms)
+		BeginReloadAssembly (1357ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (8585ms)
+			LoadAssemblies (7498ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (562ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (156ms)
+			SetupLoadedEditorAssemblies (1329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (265ms)
+				BeforeProcessingInitializeOnLoad (208ms)
+				ProcessInitializeOnLoadAttributes (639ms)
+				ProcessInitializeOnLoadMethodAttributes (185ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4967 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.8 MB). Loaded Objects now: 5418.
+Memory consumption went from 201.4 MB to 200.6 MB.
+Total: 5.549500 ms (FindLiveObjects: 0.760200 ms CreateObjectMapping: 0.588200 ms MarkObjects: 3.816400 ms  DeleteObjects: 0.382400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 680939.113114 seconds.
+  path: Assets/şato ve cevre.fbx
+  artifactKey: Guid(dfc1af62d11217b449cf6ccbaa21b465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/şato ve cevre.fbx using Guid(dfc1af62d11217b449cf6ccbaa21b465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1238bb08f0cfff1bee1b73f7a5f290') in 0.119042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fonts/Alkatra-VariableFont_wght.ttf
+  artifactKey: Guid(64479b80725b41a44be897155cf6785b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Alkatra-VariableFont_wght.ttf using Guid(64479b80725b41a44be897155cf6785b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af31ca0dbd4794d32695378aa003e4e') in 0.510248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sahneler/Main/Abstract Neon Light Background Video, Yellow Spinning Motion Background Loop _ Free Stock Footage.mp4
+  artifactKey: Guid(b3b2c4b12532bfd4d922599f0e3ff953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sahneler/Main/Abstract Neon Light Background Video, Yellow Spinning Motion Background Loop _ Free Stock Footage.mp4 using Guid(b3b2c4b12532bfd4d922599f0e3ff953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d84c4f12262bdff36b0a92ca204e6ac') in 0.019942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Sahneler/Main/GUI.png
+  artifactKey: Guid(804dd24f404b1cc46b37d1d5038ef52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sahneler/Main/GUI.png using Guid(804dd24f404b1cc46b37d1d5038ef52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfee7f15a9ca2a122a95625a038cc4ce') in 0.444546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.033169 seconds.
+  path: Assets/Sahneler/Sahne2/Sahne2.unity
+  artifactKey: Guid(029dd13e249e37448aedb00ca529c4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sahneler/Sahne2/Sahne2.unity using Guid(029dd13e249e37448aedb00ca529c4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e16ad71745172c2ac2e6208040d30f9') in 0.011498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.177442 seconds.
+  path: Assets/Sahneler/sahne3/sahne3.unity
+  artifactKey: Guid(f0f1b346968dda342a90f7a98549ce29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sahneler/sahne3/sahne3.unity using Guid(f0f1b346968dda342a90f7a98549ce29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cedfe594792c24cb649be5c6cd9c06ab') in 0.014985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.218132 seconds.
+  path: Assets/Sahneler/sahne4/casual-male-architectural-and-mobile-games
+  artifactKey: Guid(ea72f934f2899aa44a4dc5f9b0de1b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sahneler/sahne4/casual-male-architectural-and-mobile-games using Guid(ea72f934f2899aa44a4dc5f9b0de1b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d7f84e12733da1c64e6d3994ca149c') in 0.013327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.634486 seconds.
+  path: Assets/Sahneler/sahne4/casual-male-architectural-and-mobile-games/textures
+  artifactKey: Guid(fbbb3f7d977d4e749b6e504815e1facb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sahneler/sahne4/casual-male-architectural-and-mobile-games/textures using Guid(fbbb3f7d977d4e749b6e504815e1facb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8da39605e20d92af75d441d7872eef3') in 0.045104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.631652 seconds.
+  path: Assets/Sahneler/Sahne5/Sahne5.unity
+  artifactKey: Guid(62a3a5529f3b2cb4ba25c821702e8ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sahneler/Sahne5/Sahne5.unity using Guid(62a3a5529f3b2cb4ba25c821702e8ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534720187af746796eb43d8956a6ba12') in 0.047538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.142857 seconds.
+  path: Assets/Sahneler/KitapSahnesi/Global Volume Profile.asset
+  artifactKey: Guid(d77364a6b7bc1a644a61520b336b9db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sahneler/KitapSahnesi/Global Volume Profile.asset using Guid(d77364a6b7bc1a644a61520b336b9db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183aecbe2e60d2ff04ffd2d099279684') in 0.027438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.269001 seconds.
+  path: Assets/Karakter/player.fbx
+  artifactKey: Guid(a47e72811e7379643a7d70d11c9d33ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karakter/player.fbx using Guid(a47e72811e7379643a7d70d11c9d33ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b1938a54174ab51b167ef3f356c10e') in 0.059740 seconds 
