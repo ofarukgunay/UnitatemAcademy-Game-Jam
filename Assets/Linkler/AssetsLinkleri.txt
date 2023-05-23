@@ -1,0 +1,11 @@
+Oyun için kullanılan Assetslerin linkleri;
+Karakterler:
+https://sketchfab.com/3d-models/full-moon-fears-werewolf-1bdf1c2acdcd4bab9c933885519d31db 
+https://sketchfab.com/3d-models/goblin-assassin-8d425dd024474101bca68e960f910319
+https://sketchfab.com/3d-models/anime-boy-cf5de6e8d866489488c138571d15f8d1
+Eşyalar:
+https://sketchfab.com/3d-models/simple-animated-book-ed83e749b47c4703be85d56539ee9f2e
+Efektler:
+https://assetstore.unity.com/packages/vfx/particles/fancy-footsteps-201948
+https://assetstore.unity.com/packages/vfx/particles/spells/magic-effects-free-247933
+https://assetstore.unity.com/packages/vfx/shaders/urp-simple-toon-shader-243515

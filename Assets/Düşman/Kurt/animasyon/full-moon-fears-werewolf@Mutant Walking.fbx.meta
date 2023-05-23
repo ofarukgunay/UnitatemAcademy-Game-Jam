@@ -1,0 +1,1322 @@
+fileFormatVersion: 2
+guid: 4ccac6b08adadb14dbf5a83b90e8b3ae
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf_mat
+    second: {fileID: 2100000, guid: 552589624b7991c4980e856bcf95b6ac, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Werewolf_QuickRig_LeftLeg' has translation
+      animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Mutant Walking
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: mixamo.com
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Werewolf_QuickRig_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Werewolf_QuickRig_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Werewolf_QuickRig_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Werewolf_QuickRig_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Werewolf_QuickRig_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Werewolf_QuickRig_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Werewolf_QuickRig_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Werewolf_QuickRig_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Werewolf_QuickRig_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Werewolf_QuickRig_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Werewolf_QuickRig_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Werewolf_QuickRig_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Werewolf_QuickRig_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Werewolf_QuickRig_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Werewolf_QuickRig_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Werewolf_QuickRig_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Werewolf_QuickRig_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Werewolf_QuickRig_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Werewolf_QuickRig_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Werewolf_QuickRig_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Werewolf_QuickRig_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Eye_Joint
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Eye_Joint
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upper_Jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Thumb_01
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Thumb_02
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Thumb_03
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_PointerFinger_01
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_PointerFinger_02
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_PointerFinger_03
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_IndexFinger_01
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_IndexFinger_02
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_IndexFinger_03
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Lingfinger_01
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Lingfinger_02
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Lingfinger_03
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Pinky_01
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Pinky_02
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Pinky_03
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Thumb_01
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Thumb_02
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Thumb_03
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_PointerFinger_01
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_PointerFinger_02
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_PointerFinger_03
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_IndexFinger_01
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_IndexFinger_02
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_IndexFinger_03
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Ringfinger_01
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Ringfinger_02
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Ringfinger_03
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Pinky_01
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Pinky_02
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Pinky_03
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Werewolf_QuickRig_Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: full-moon-fears-werewolf@Mutant Walking(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh
+      parentName: full-moon-fears-werewolf@Mutant Walking(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body_Mesh
+      parentName: Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eye_Low
+      parentName: Mesh
+      position: {x: -0, y: 9.298501, z: 1.5594381}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_Eye
+      parentName: Eye_Low
+      position: {x: -0, y: -9.298501, z: -1.5594381}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Eye
+      parentName: Eye_Low
+      position: {x: -0, y: -9.298501, z: -1.5594381}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Guides
+      parentName: full-moon-fears-werewolf@Mutant Walking(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: Werewolf_QuickRig_Guides
+      position: {x: -0, y: 9.273591, z: 0.8992388}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hips
+      parentName: Werewolf_QuickRig_Guides
+      position: {x: -0, y: 5.2320156, z: 0.3646958}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftArm
+      parentName: Werewolf_QuickRig_Guides
+      position: {x: -1.227503, y: 7.7501764, z: -0.13480578}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftFoot
+      parentName: Werewolf_QuickRig_Guides
+      position: {x: -1.5707252, y: 0.46437156, z: -0.2304431}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftForeArm
+      parentName: Werewolf_QuickRig_Guides
+      position: {x: -2.350529, y: 6.8844957, z: -0.23331934}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftHand
+      parentName: Werewolf_QuickRig_Guides
+      position: {x: -3.5109448, y: 5.8186846, z: 0.55975133}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftLeg
+      parentName: Werewolf_QuickRig_Guides
+      position: {x: -1.2153964, y: 3.085875, z: 1.1089214}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftShoulder
+      parentName: Werewolf_QuickRig_Guides
+      position: {x: -0.76572126, y: 7.008627, z: 0.20753752}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftToeBase
+      parentName: Werewolf_QuickRig_Guides
+      position: {x: -1.7654166, y: 0.36329633, z: 0.7543151}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftUpLeg
+      parentName: Werewolf_QuickRig_Guides
+      position: {x: -1.0483667, y: 4.9981737, z: 0.3599334}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck
+      parentName: Werewolf_QuickRig_Guides
+      position: {x: -0, y: 8.509153, z: 0.48787615}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Reference
+      parentName: Werewolf_QuickRig_Guides
+      position: {x: -0, y: -0.026060563, z: 0.3519171}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightArm
+      parentName: Werewolf_QuickRig_Guides
+      position: {x: 1.227503, y: 7.7501764, z: -0.13480578}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightFoot
+      parentName: Werewolf_QuickRig_Guides
+      position: {x: 1.5707252, y: 0.46437156, z: -0.2304431}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightForeArm
+      parentName: Werewolf_QuickRig_Guides
+      position: {x: 2.350529, y: 6.8844957, z: -0.23331934}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightHand
+      parentName: Werewolf_QuickRig_Guides
+      position: {x: 3.5109448, y: 5.8186846, z: 0.55975133}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightLeg
+      parentName: Werewolf_QuickRig_Guides
+      position: {x: 1.2153964, y: 3.085875, z: 1.1089214}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightShoulder
+      parentName: Werewolf_QuickRig_Guides
+      position: {x: 0.76572126, y: 7.008627, z: 0.20753752}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightToeBase
+      parentName: Werewolf_QuickRig_Guides
+      position: {x: 1.7654166, y: 0.36329633, z: 0.7543151}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightUpLeg
+      parentName: Werewolf_QuickRig_Guides
+      position: {x: 1.0483667, y: 4.9981737, z: 0.3599334}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine
+      parentName: Werewolf_QuickRig_Guides
+      position: {x: -0, y: 6.064533, z: 0.39307353}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine1
+      parentName: Werewolf_QuickRig_Guides
+      position: {x: -0, y: 6.8229337, z: 0.27659863}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine2
+      parentName: Werewolf_QuickRig_Guides
+      position: {x: -0, y: 7.647233, z: 0.26369506}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Reference
+      parentName: full-moon-fears-werewolf@Mutant Walking(Clone)
+      position: {x: -0.051559754, y: -0.21775855, z: -0.9779575}
+      rotation: {x: 0.055325367, y: -0.051810205, z: -0.013330041, w: 0.9970342}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Hips
+      parentName: Werewolf_QuickRig_Reference
+      position: {x: -0.041635275, y: 5.3702836, z: 0.18136019}
+      rotation: {x: 0.45995784, y: -0.48584434, z: -0.49954218, w: 0.55031955}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: Werewolf_QuickRig_LeftUpLeg
+      parentName: Werewolf_QuickRig_Hips
+      position: {x: 0.2338689, y: 0.0032067185, z: 1.0483664}
+      rotation: {x: 0.034620818, y: 0.009847431, z: -0.9897643, w: 0.13809809}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: Werewolf_QuickRig_LeftLeg
+      parentName: Werewolf_QuickRig_LeftUpLeg
+      position: {x: -2.060525, y: 0.00012564006, z: 0.00012589086}
+      rotation: {x: -0.03954873, y: -0.009017182, z: 0.34946367, w: -0.93607146}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Werewolf_QuickRig_LeftFoot
+      parentName: Werewolf_QuickRig_LeftLeg
+      position: {x: -2.9652035, y: -0.00001530712, z: -0.000027126669}
+      rotation: {x: 0.1214708, y: -0.034365512, z: -0.81684494, w: -0.562875}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Werewolf_QuickRig_LeftToeBase
+      parentName: Werewolf_QuickRig_LeftFoot
+      position: {x: -1.0088943, y: 0.000000010155639, z: -0.000000019442696}
+      rotation: {x: -0, y: -0, z: 0.000000013038514, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Werewolf_QuickRig_RightUpLeg
+      parentName: Werewolf_QuickRig_Hips
+      position: {x: 0.23386842, y: 0.0032065813, z: -1.0483675}
+      rotation: {x: -0.009845316, y: 0.034635067, z: 0.13806833, w: 0.989768}
+      scale: {x: 1.0000004, y: 1.0000001, z: 0.9999999}
+    - name: Werewolf_QuickRig_RightLeg
+      parentName: Werewolf_QuickRig_RightUpLeg
+      position: {x: 2.0605273, y: 0.00000052836515, z: 0.00005818835}
+      rotation: {x: 0.039546512, y: 0.009009997, z: -0.34943238, w: 0.9360834}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Werewolf_QuickRig_RightFoot
+      parentName: Werewolf_QuickRig_RightLeg
+      position: {x: 2.9652026, y: 0.000010621762, z: 0.00002615285}
+      rotation: {x: -0.12147251, y: 0.03435939, z: 0.81684273, w: 0.562878}
+      scale: {x: 1.0000002, y: 1.0000004, z: 0.9999999}
+    - name: Werewolf_QuickRig_RightToeBase
+      parentName: Werewolf_QuickRig_RightFoot
+      position: {x: 1.0088964, y: 0.000000010943356, z: -0.0000003497767}
+      rotation: {x: 0.000025391579, y: -0.00000011269003, z: 0.000000013504177, w: 1}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000001}
+    - name: Werewolf_QuickRig_Spine
+      parentName: Werewolf_QuickRig_Hips
+      position: {x: -0.8330011, y: 0.00000010751651, z: 0.000000023557885}
+      rotation: {x: -0, y: 0.000000029802326, z: 0.09309616, w: 0.99565715}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000004}
+    - name: Werewolf_QuickRig_Spine1
+      parentName: Werewolf_QuickRig_Spine
+      position: {x: -0.7672924, y: 0.000000052666476, z: 0.00000004170542}
+      rotation: {x: -0.00000005453773, y: 0.000000035101642, z: -0.06831482, w: 0.99766386}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+    - name: Werewolf_QuickRig_Spine2
+      parentName: Werewolf_QuickRig_Spine1
+      position: {x: -0.824401, y: -0.00000017499528, z: -0.00000000352104}
+      rotation: {x: -0.000000051642147, y: 0.000000022524928, z: 0.13464466, w: -0.99089396}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: Werewolf_QuickRig_LeftShoulder
+      parentName: Werewolf_QuickRig_Spine2
+      position: {x: 0.6321793, y: 0.10640089, z: 0.7657214}
+      rotation: {x: 0.62873214, y: -0.26898658, z: -0.5610579, w: -0.46642905}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: Werewolf_QuickRig_LeftArm
+      parentName: Werewolf_QuickRig_LeftShoulder
+      position: {x: -0.9382629, y: 0.0000004625251, z: -0.000000100818006}
+      rotation: {x: 0.80668354, y: 0.143563, z: 0.06274995, w: 0.5698367}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000005}
+    - name: Werewolf_QuickRig_LeftForeArm
+      parentName: Werewolf_QuickRig_LeftArm
+      position: {x: -1.4213703, y: 0.000030081237, z: -0.000011460113}
+      rotation: {x: 0.20984028, y: -0.00816522, z: -0.02544977, w: 0.97737026}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Werewolf_QuickRig_LeftHand
+      parentName: Werewolf_QuickRig_LeftForeArm
+      position: {x: -1.7639394, y: 0.0000009955345, z: 0.000020904057}
+      rotation: {x: -0.0000018626449, y: -0.019605214, z: 0.012112925, w: 0.9997344}
+      scale: {x: 0.9999998, y: 0.99999994, z: 1.0000001}
+    - name: L_Thumb_01
+      parentName: Werewolf_QuickRig_LeftHand
+      position: {x: -0.15268108, y: 0.55619425, z: 0.11399302}
+      rotation: {x: 0.22946925, y: 0.6110876, z: 0.6505026, w: 0.38828093}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000006}
+    - name: L_Thumb_02
+      parentName: L_Thumb_01
+      position: {x: 0.29180014, y: -0.000014482934, z: 0.000008379575}
+      rotation: {x: -0.94447905, y: -0.019531073, z: 0.020209925, w: 0.32736754}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000005}
+    - name: L_Thumb_03
+      parentName: L_Thumb_02
+      position: {x: 0.24177156, y: -0.00000033164196, z: 0.00001219819}
+      rotation: {x: 0.7131908, y: 0.047194347, z: -0.592198, w: 0.37206608}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000001}
+    - name: L_PointerFinger_01
+      parentName: Werewolf_QuickRig_LeftHand
+      position: {x: -0.5165164, y: 0.37383646, z: 0.035885226}
+      rotation: {x: 0.14913115, y: 0.61942, z: 0.75806916, w: 0.13932002}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: L_PointerFinger_02
+      parentName: L_PointerFinger_01
+      position: {x: 0.3199838, y: 0.000013531264, z: -0.012754538}
+      rotation: {x: -0.96437144, y: -0.01611821, z: 0.011813176, w: 0.26379612}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000002}
+    - name: L_PointerFinger_03
+      parentName: L_PointerFinger_02
+      position: {x: 0.36281294, y: -0.00000065259803, z: 0.000000055225318}
+      rotation: {x: 0.5280283, y: -0.033395045, z: -0.7172246, w: 0.45349723}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: L_IndexFinger_01
+      parentName: Werewolf_QuickRig_LeftHand
+      position: {x: -0.6142161, y: 0.13431738, z: 0.07104722}
+      rotation: {x: 0.13336472, y: 0.68883365, z: 0.7115279, w: 0.038081635}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: L_IndexFinger_02
+      parentName: L_IndexFinger_01
+      position: {x: 0.36546177, y: 0.029660324, z: -0.016044816}
+      rotation: {x: -0.9780913, y: -0.058844015, z: 0.017657284, w: 0.19890484}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: L_IndexFinger_03
+      parentName: L_IndexFinger_02
+      position: {x: 0.29486614, y: -0.000001509294, z: 0.0000064986552}
+      rotation: {x: 0.4543055, y: -0.059835665, z: -0.800831, w: 0.38561115}
+      scale: {x: 1, y: 1.0000004, z: 1}
+    - name: L_Lingfinger_01
+      parentName: Werewolf_QuickRig_LeftHand
+      position: {x: -0.57607406, y: -0.017534612, z: 0.19930309}
+      rotation: {x: 0.08363233, y: 0.7648231, z: 0.63767684, w: -0.03767697}
+      scale: {x: 1.0000005, y: 0.99999994, z: 1.0000001}
+    - name: L_Lingfinger_02
+      parentName: L_Lingfinger_01
+      position: {x: 0.33929244, y: 0.025919344, z: 0.008941646}
+      rotation: {x: -0.96948236, y: -0.0434214, z: -0.03398866, w: -0.23887926}
+      scale: {x: 1, y: 0.9999998, z: 1.0000001}
+    - name: L_Lingfinger_03
+      parentName: L_Lingfinger_02
+      position: {x: 0.31957158, y: 0.00000089202024, z: -0.00000841475}
+      rotation: {x: 0.5941477, y: 0.26113778, z: -0.6938065, w: 0.31213486}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: L_Pinky_01
+      parentName: Werewolf_QuickRig_LeftHand
+      position: {x: -0.42851278, y: -0.12554796, z: 0.28873387}
+      rotation: {x: 0.13338892, y: 0.8765426, z: 0.4528087, w: -0.094046615}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.9999998}
+    - name: L_Pinky_02
+      parentName: L_Pinky_01
+      position: {x: 0.36268923, y: -0.060306586, z: 0.01288735}
+      rotation: {x: -0.9856336, y: 0.07455887, z: -0.005294895, w: -0.15145707}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1.0000001}
+    - name: L_Pinky_03
+      parentName: L_Pinky_02
+      position: {x: 0.22113198, y: 0.000010497463, z: -0.00000026792443}
+      rotation: {x: -0.10220867, y: 0.036703296, z: -0.8088683, w: 0.577874}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000005}
+    - name: Werewolf_QuickRig_RightShoulder
+      parentName: Werewolf_QuickRig_Spine2
+      position: {x: 0.6321792, y: 0.10640076, z: -0.76572096}
+      rotation: {x: -0.26898646, y: -0.6287325, z: 0.46642905, w: -0.56105775}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: Werewolf_QuickRig_RightArm
+      parentName: Werewolf_QuickRig_RightShoulder
+      position: {x: 0.9382621, y: 0.0000003403841, z: 0.0000002635766}
+      rotation: {x: -0.80668414, y: -0.14356685, z: -0.06274587, w: -0.5698354}
+      scale: {x: 1, y: 1.0000001, z: 1.0000004}
+    - name: Werewolf_QuickRig_RightForeArm
+      parentName: Werewolf_QuickRig_RightArm
+      position: {x: 1.4213703, y: -0.000014579051, z: 0.0000081897615}
+      rotation: {x: 0.20983867, y: -0.008156867, z: -0.025445974, w: 0.97737086}
+      scale: {x: 1, y: 0.9999996, z: 1}
+    - name: Werewolf_QuickRig_RightHand
+      parentName: Werewolf_QuickRig_RightForeArm
+      position: {x: 1.76394, y: 0.00001125188, z: 0.000001170352}
+      rotation: {x: -0.0000014603129, y: -0.019617885, z: 0.0121207815, w: 0.99973416}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000001}
+    - name: R_Thumb_01
+      parentName: Werewolf_QuickRig_RightHand
+      position: {x: 0.15268041, y: -0.5561945, z: -0.11398645}
+      rotation: {x: 0.22945973, y: 0.61108136, z: 0.65050054, w: 0.38830003}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000008}
+    - name: R_Thumb_02
+      parentName: R_Thumb_01
+      position: {x: -0.29181004, y: 1.4210854e-15, z: 8.8817837e-17}
+      rotation: {x: -0.9444767, y: -0.019560633, z: 0.020257985, w: 0.32736948}
+      scale: {x: 1.0000001, y: 0.9999996, z: 0.99999994}
+    - name: R_Thumb_03
+      parentName: R_Thumb_02
+      position: {x: -0.24174872, y: -1.065814e-15, z: 7.9936056e-16}
+      rotation: {x: 0.7131908, y: 0.047194444, z: -0.592198, w: 0.37206605}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1}
+    - name: R_PointerFinger_01
+      parentName: Werewolf_QuickRig_RightHand
+      position: {x: 0.5165247, y: -0.37383804, z: -0.0358974}
+      rotation: {x: 0.14913104, y: 0.61942005, z: 0.758069, w: 0.13932021}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000005}
+    - name: R_PointerFinger_02
+      parentName: R_PointerFinger_01
+      position: {x: -0.31997308, y: 0, z: 0.012757451}
+      rotation: {x: -0.964371, y: -0.016094131, z: 0.01181414, w: 0.2637988}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: R_PointerFinger_03
+      parentName: R_PointerFinger_02
+      position: {x: -0.36281556, y: 6.661338e-17, z: 1.5543121e-16}
+      rotation: {x: 0.52802837, y: -0.033395153, z: -0.7172246, w: 0.45349717}
+      scale: {x: 1.0000002, y: 1.0000005, z: 0.99999994}
+    - name: R_IndexFinger_01
+      parentName: Werewolf_QuickRig_RightHand
+      position: {x: 0.6142258, y: -0.13431841, z: -0.07105892}
+      rotation: {x: 0.13336466, y: 0.6888338, z: 0.71152776, w: 0.038081802}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000011}
+    - name: R_IndexFinger_02
+      parentName: R_IndexFinger_01
+      position: {x: -0.3654555, y: -0.029655777, z: 0.01604726}
+      rotation: {x: -0.97809035, y: -0.058844317, z: 0.01766934, w: 0.19890836}
+      scale: {x: 0.9999997, y: 0.9999998, z: 0.99999946}
+    - name: R_IndexFinger_03
+      parentName: R_IndexFinger_02
+      position: {x: -0.29486004, y: 1.2323475e-15, z: 8.8817837e-17}
+      rotation: {x: 0.45430565, y: -0.059835553, z: -0.80083096, w: 0.3856111}
+      scale: {x: 1.0000005, y: 1.0000002, z: 0.99999994}
+    - name: R_Ringfinger_01
+      parentName: Werewolf_QuickRig_RightHand
+      position: {x: 0.576084, y: 0.017536687, z: -0.19931664}
+      rotation: {x: 0.08364282, y: 0.76481897, z: 0.6376789, w: -0.03770027}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000005}
+    - name: R_Ringfinger_02
+      parentName: R_Ringfinger_01
+      position: {x: -0.33927092, y: -0.025904771, z: -0.008944615}
+      rotation: {x: -0.969484, y: -0.043402996, z: -0.03400187, w: -0.23887417}
+      scale: {x: 1, y: 0.9999997, z: 1.0000004}
+    - name: R_Ringfinger_03
+      parentName: R_Ringfinger_02
+      position: {x: -0.31957674, y: 5.995204e-16, z: 2.997602e-16}
+      rotation: {x: 0.5941478, y: 0.26113784, z: -0.6938064, w: 0.3121348}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: R_Pinky_01
+      parentName: Werewolf_QuickRig_RightHand
+      position: {x: 0.42850155, y: 0.12555145, z: -0.2887169}
+      rotation: {x: 0.13334921, y: 0.8765588, z: 0.45279053, w: -0.09403998}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000004}
+    - name: R_Pinky_02
+      parentName: R_Pinky_01
+      position: {x: -0.3627208, y: 0.06027291, z: -0.012889935}
+      rotation: {x: -0.98563576, y: 0.07453297, z: -0.0053063356, w: -0.15145582}
+      scale: {x: 0.9999997, y: 1.0000006, z: 1.0000001}
+    - name: R_Pinky_03
+      parentName: R_Pinky_02
+      position: {x: -0.22111079, y: -2.350346e-17, z: 7.0753033e-16}
+      rotation: {x: -0.102208614, y: 0.036703274, z: -0.8088683, w: 0.5778741}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: Werewolf_QuickRig_Neck
+      parentName: Werewolf_QuickRig_Spine2
+      position: {x: -0.89059365, y: -0.000004048725, z: -0.00000029778403}
+      rotation: {x: 0.00000003283144, y: 0.0000000056356573, z: -0.11932649, w: 0.9928551}
+      scale: {x: 1, y: 1.0000006, z: 1.0000001}
+    - name: Werewolf_QuickRig_Head
+      parentName: Werewolf_QuickRig_Neck
+      position: {x: -0.86808896, y: 0.0000007307061, z: 0.000000058154445}
+      rotation: {x: -0, y: -0, z: -1.8502675e-16, w: 1}
+      scale: {x: 1.0000008, y: 1.0000017, z: 1.0000008}
+    - name: Upper_Jaw
+      parentName: Werewolf_QuickRig_Head
+      position: {x: -0.06640818, y: 0.5518454, z: -2.7105053e-21}
+      rotation: {x: 0.77740496, y: -0.6290004, z: 0.000000036843126, w: 0.000000014633233}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Upper_Jaw_Null
+      parentName: Upper_Jaw
+      position: {x: -0.82346827, y: -5.7731595e-16, z: -6.4094946e-32}
+      rotation: {x: -0.09986779, y: -0.7000189, z: -0.09986767, w: 0.7000189}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999998}
+    - name: Lower_Jaw
+      parentName: Werewolf_QuickRig_Head
+      position: {x: 0.2907023, y: 0.7005619, z: -2.7105053e-21}
+      rotation: {x: 0.77045834, y: -0.63749033, z: 0.00000007927947, w: 0.00000006555357}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: Lower_Jaw_Null
+      parentName: Lower_Jaw
+      position: {x: -0.7106424, y: 8.8817837e-17, z: 4.9303804e-33}
+      rotation: {x: -0.10754068, y: -0.6988813, z: -0.10754056, w: 0.6988812}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: L_Ear_1
+      parentName: Werewolf_QuickRig_Head
+      position: {x: -0.3125748, y: -0.31349662, z: 0.43337896}
+      rotation: {x: 0.015003518, y: -0.9001653, z: -0.3866985, w: 0.1998537}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: L_Ear_2
+      parentName: L_Ear_1
+      position: {x: 0.29104123, y: -0.000014890952, z: -0.0000019072627}
+      rotation: {x: 0.9100143, y: -0.15991662, z: 0.0020718542, w: -0.38248736}
+      scale: {x: 1, y: 0.99999934, z: 1.0000006}
+    - name: R_Ear_1
+      parentName: Werewolf_QuickRig_Head
+      position: {x: -0.3125742, y: -0.31349838, z: -0.43342704}
+      rotation: {x: 0.9001653, y: 0.015003545, z: 0.19985364, w: 0.38669857}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999998}
+    - name: R_Ear_2
+      parentName: R_Ear_1
+      position: {x: -0.2910213, y: -7.9936056e-16, z: 3.6637357e-16}
+      rotation: {x: -0.9100142, y: 0.15991674, z: -0.0020719615, w: 0.38248733}
+      scale: {x: 1.0000002, y: 0.9999996, z: 1.0000006}
+    - name: R_Eyebrow
+      parentName: Werewolf_QuickRig_Head
+      position: {x: -0.37362182, y: 0.42401946, z: -0.21411036}
+      rotation: {x: 0.7779876, y: -0.62827957, z: 0.0000000010490363, w: -0.000000007569211}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: R_Eyebrow_Null
+      parentName: R_Eyebrow
+      position: {x: -0.2910213, y: -2.664535e-15, z: -3.278703e-31}
+      rotation: {x: -0.09921917, y: -0.7001111, z: -0.099219024, w: 0.70011115}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: R_Eye_Joint
+      parentName: Werewolf_QuickRig_Head
+      position: {x: -0.33072406, y: 0.5731458, z: -0.28936526}
+      rotation: {x: 0.6070152, y: -0.36267433, z: -0.6070152, w: -0.3626742}
+      scale: {x: 0.9999998, y: 1.0000004, z: 0.999999}
+    - name: L_Eyebrow
+      parentName: Werewolf_QuickRig_Head
+      position: {x: -0.37360263, y: 0.42402834, z: 0.21406248}
+      rotation: {x: -0.6282795, y: -0.77798766, z: -0.000000030764628, w: 0.000000038810008}
+      scale: {x: 0.9999997, y: 0.99999994, z: 1.0000001}
+    - name: L_Eyebrow_Null
+      parentName: L_Eyebrow
+      position: {x: 0.29102114, y: -0.000013016181, z: -2.7426949e-13}
+      rotation: {x: -0.09921909, y: -0.7001112, z: -0.09921912, w: 0.7001111}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: L_Eye_Joint
+      parentName: Werewolf_QuickRig_Head
+      position: {x: -0.33074334, y: 0.57313746, z: 0.28931698}
+      rotation: {x: -0.36267412, y: -0.60701513, z: 0.36267433, w: -0.6070152}
+      scale: {x: 1, y: 1.0000005, z: 0.99999946}
+    - name: Tail_01
+      parentName: Werewolf_QuickRig_Hips
+      position: {x: -0.435157, y: -1.2685499, z: 0.024199242}
+      rotation: {x: 0.0035054982, y: -0.0047399104, z: 0.8237888, w: 0.56686616}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1}
+    - name: Tail_02
+      parentName: Tail_01
+      position: {x: -2.3701904, y: 0, z: -4.496403e-16}
+      rotation: {x: -0.00040955393, y: -0.0031764251, z: -0.20168386, w: 0.9794455}
+      scale: {x: 1, y: 0.99999994, z: 1.0000002}
+    - name: Tail_Null
+      parentName: Tail_02
+      position: {x: -2.5965126, y: -4.4408918e-17, z: -5.5511148e-18}
+      rotation: {x: -0.026697017, y: 0.71301115, z: 0.02621559, w: 0.70015365}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Werewolf_QuickRig_Ctrl_Reference
+      parentName: full-moon-fears-werewolf@Mutant Walking(Clone)
+      position: {x: -0, y: -0.026060563, z: 0.3519171}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EyeCtrl
+      parentName: Werewolf_QuickRig_Ctrl_Reference
+      position: {x: -0, y: 8.428111, z: 17.775434}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_HipsEffector
+      parentName: Werewolf_QuickRig_Ctrl_Reference
+      position: {x: -0.25692078, y: 4.730064, z: 0.20784031}
+      rotation: {x: 0.07803929, y: 0.0015878031, z: -0.020279795, w: 0.9967428}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_LeftAnkleEffector
+      parentName: Werewolf_QuickRig_Ctrl_Reference
+      position: {x: -1.6224809, y: 0.38227314, z: 1.4355857}
+      rotation: {x: 0.000000059608745, y: -0.019880943, z: -0.0020405669, w: 0.99980026}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_RightAnkleEffector
+      parentName: Werewolf_QuickRig_Ctrl_Reference
+      position: {x: 1.4187157, y: 0.41216058, z: -1.8436383}
+      rotation: {x: -0.010739684, y: 0.13007861, z: -0.00090478006, w: 0.9914451}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_LeftWristEffector
+      parentName: Werewolf_QuickRig_Ctrl_Reference
+      position: {x: -2.957308, y: 5.2293086, z: 0.46999612}
+      rotation: {x: 0.19306028, y: 0.13541636, z: 0.09462755, w: 0.9671793}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_RightWristEffector
+      parentName: Werewolf_QuickRig_Ctrl_Reference
+      position: {x: 2.4671853, y: 5.234827, z: 0.6079533}
+      rotation: {x: 0.06301805, y: -0.08810846, z: -0.112309985, w: 0.98775107}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_LeftKneeEffector
+      parentName: Werewolf_QuickRig_Ctrl_Reference
+      position: {x: -1.3709362, y: 3.326551, z: 1.6812685}
+      rotation: {x: -0.19257635, y: 0.0019125207, z: 0.018833881, w: 0.9810994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_RightKneeEffector
+      parentName: Werewolf_QuickRig_Ctrl_Reference
+      position: {x: 1.2795981, y: 2.6922386, z: 0.046950746}
+      rotation: {x: 0.096619695, y: 0.13953243, z: 0.04853363, w: 0.9842966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_LeftElbowEffector
+      parentName: Werewolf_QuickRig_Ctrl_Reference
+      position: {x: -1.8761952, y: 6.565147, z: -0.2452293}
+      rotation: {x: 0.16380098, y: 0.09430122, z: 0.11716764, w: 0.9749607}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_RightElbowEffector
+      parentName: Werewolf_QuickRig_Ctrl_Reference
+      position: {x: 2.1528692, y: 6.5111036, z: 0.053692456}
+      rotation: {x: 0.08655235, y: -0.1184834, z: -0.09195544, w: 0.9848932}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_ChestOriginEffector
+      parentName: Werewolf_QuickRig_Ctrl_Reference
+      position: {x: -0.21378578, y: 5.359048, z: 0.4820868}
+      rotation: {x: 0.16401833, y: -0.0027392397, z: -0.013371146, w: 0.9863629}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_ChestEndEffector
+      parentName: Werewolf_QuickRig_Ctrl_Reference
+      position: {x: -0.17506097, y: 6.303635, z: 0.7009725}
+      rotation: {x: 0.13080464, y: -0.014657048, z: 0.016990049, w: 0.9911542}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_LeftFootEffector
+      parentName: Werewolf_QuickRig_Ctrl_Reference
+      position: {x: -1.8565772, y: 0.28207302, z: 2.4118173}
+      rotation: {x: 0.000000059608745, y: -0.019880943, z: -0.0020405669, w: 0.99980026}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_RightFootEffector
+      parentName: Werewolf_QuickRig_Ctrl_Reference
+      position: {x: 1.8609389, y: 0.3309548, z: -0.94046956}
+      rotation: {x: -0.010739685, y: 0.1300785, z: -0.00090477825, w: 0.9914451}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_LeftShoulderEffector
+      parentName: Werewolf_QuickRig_Ctrl_Reference
+      position: {x: -1.4260765, y: 7.513412, z: 0.50486714}
+      rotation: {x: 0.15907308, y: -0.07885726, z: 0.06712214, w: 0.9818207}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_RightShoulderEffector
+      parentName: Werewolf_QuickRig_Ctrl_Reference
+      position: {x: 1.026291, y: 7.590039, z: 0.58901584}
+      rotation: {x: 0.121755175, y: 0.013409405, z: -0.10038939, w: 0.9873793}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_HeadEffector
+      parentName: Werewolf_QuickRig_Ctrl_Reference
+      position: {x: -0.2838306, y: 8.529546, z: 2.1027014}
+      rotation: {x: 0.19091764, y: -0.013846435, z: 0.018597368, w: 0.9813322}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_LeftHipEffector
+      parentName: Werewolf_QuickRig_Ctrl_Reference
+      position: {x: -1.304423, y: 4.3710494, z: 0.21447669}
+      rotation: {x: -0.2082232, y: 0.011355513, z: 0.021775523, w: 0.97777295}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_RightHipEffector
+      parentName: Werewolf_QuickRig_Ctrl_Reference
+      position: {x: 0.79057986, y: 4.2868023, z: 0.20120326}
+      rotation: {x: 0.19310698, y: 0.17655197, z: 0.052549463, w: 0.96373117}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_Hips
+      parentName: Werewolf_QuickRig_Ctrl_Reference
+      position: {x: -0.24744822, y: 4.5554423, z: 0.2653331}
+      rotation: {x: 0.113792226, y: 0.0008583155, z: -0.020323783, w: 0.9932963}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_LeftUpLeg
+      parentName: Werewolf_QuickRig_Ctrl_Hips
+      position: {x: -1.0483667, y: -0.23384207, z: -0.004762387}
+      rotation: {x: -0.42821747, y: -0.04333433, z: 0.043837436, w: 0.901571}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_LeftLeg
+      parentName: Werewolf_QuickRig_Ctrl_LeftUpLeg
+      position: {x: -0.16702975, y: -1.9122984, z: 0.748988}
+      rotation: {x: 0.17997898, y: -0.010137043, z: -0.0027478847, w: 0.9836144}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_LeftFoot
+      parentName: Werewolf_QuickRig_Ctrl_LeftLeg
+      position: {x: -0.35532874, y: -2.6215036, z: -1.3393644}
+      rotation: {x: 0.14596479, y: -0.006172456, z: -0.04091874, w: 0.98842394}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_LeftToeBase
+      parentName: Werewolf_QuickRig_Ctrl_LeftFoot
+      position: {x: -0.19469145, y: -0.10107522, z: 0.9847582}
+      rotation: {x: 2.2365468e-32, y: -0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_RightUpLeg
+      parentName: Werewolf_QuickRig_Ctrl_Hips
+      position: {x: 1.0483667, y: -0.23384207, z: -0.004762387}
+      rotation: {x: -0.014580023, y: 0.16033587, z: 0.0734956, w: 0.98421454}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_RightLeg
+      parentName: Werewolf_QuickRig_Ctrl_RightUpLeg
+      position: {x: 0.16702975, y: -1.9122984, z: 0.748988}
+      rotation: {x: 0.092231244, y: -0.024289755, z: -0.016551182, w: 0.99530375}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_RightFoot
+      parentName: Werewolf_QuickRig_Ctrl_RightLeg
+      position: {x: 0.35532874, y: -2.6215036, z: -1.3393644}
+      rotation: {x: -0.17210653, y: -0.009789524, z: -0.069051825, w: 0.9826064}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_RightToeBase
+      parentName: Werewolf_QuickRig_Ctrl_RightFoot
+      position: {x: 0.19469145, y: -0.10107522, z: 0.9847582}
+      rotation: {x: 2.669276e-23, y: -0.0000002179629, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_Spine
+      parentName: Werewolf_QuickRig_Ctrl_Hips
+      position: {x: -0, y: 0.83251756, z: 0.028377745}
+      rotation: {x: 0.10242641, y: -0.0010922308, z: 0.008226116, w: 0.994706}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_Spine1
+      parentName: Werewolf_QuickRig_Ctrl_Spine
+      position: {x: -0, y: 0.7584003, z: -0.116474904}
+      rotation: {x: 0.0152105335, y: -0.001794946, z: 0.016399408, w: 0.99974823}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_Spine2
+      parentName: Werewolf_QuickRig_Ctrl_Spine1
+      position: {x: -0, y: 0.8242996, z: -0.01290357}
+      rotation: {x: 0.01524529, y: -0.0033588905, z: 0.016083801, w: 0.9997488}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_LeftShoulder
+      parentName: Werewolf_QuickRig_Ctrl_Spine2
+      position: {x: -0.76572126, y: -0.63860625, z: -0.056157537}
+      rotation: {x: -0.00000012503293, y: 1.9997821e-15, z: -0.000000015661065, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_LeftArm
+      parentName: Werewolf_QuickRig_Ctrl_LeftShoulder
+      position: {x: -0.46178165, y: 0.7415496, z: -0.3423433}
+      rotation: {x: 0.032465126, y: -0.06702895, z: 0.018584695, w: 0.9970495}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_LeftForeArm
+      parentName: Werewolf_QuickRig_Ctrl_LeftArm
+      position: {x: -1.123026, y: -0.86568063, z: -0.09851355}
+      rotation: {x: -0.008653966, y: 0.33544892, z: -0.0062244833, w: 0.9419981}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_LeftHand
+      parentName: Werewolf_QuickRig_Ctrl_LeftForeArm
+      position: {x: -1.160416, y: -1.0658115, z: 0.7930707}
+      rotation: {x: -0.021336522, y: -0.01966211, z: 0.014744373, w: 0.99947023}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_RightShoulder
+      parentName: Werewolf_QuickRig_Ctrl_Spine2
+      position: {x: 0.76572126, y: -0.63860625, z: -0.056157537}
+      rotation: {x: -0.00000012475746, y: -4.1633344e-17, z: -1.5265567e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_RightArm
+      parentName: Werewolf_QuickRig_Ctrl_RightShoulder
+      position: {x: 0.46178165, y: 0.7415489, z: -0.3423433}
+      rotation: {x: 0.04491462, y: 0.06708544, z: -0.13199377, w: 0.9879574}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_RightForeArm
+      parentName: Werewolf_QuickRig_Ctrl_RightArm
+      position: {x: 1.123026, y: -0.86567986, z: -0.09851355}
+      rotation: {x: -0.0647334, y: -0.2816808, z: 0.052856505, w: 0.9558618}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_RightHand
+      parentName: Werewolf_QuickRig_Ctrl_RightForeArm
+      position: {x: 1.160416, y: -1.0658115, z: 0.7930707}
+      rotation: {x: -0.0703853, y: 0.06467301, z: -0.048152454, w: 0.99425584}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_Neck
+      parentName: Werewolf_QuickRig_Ctrl_Spine2
+      position: {x: -0, y: 0.8619201, z: 0.22418109}
+      rotation: {x: -0.009407413, y: -0.00000038354048, z: 0.0000006227453, w: 0.9999558}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Werewolf_QuickRig_Ctrl_Head
+      parentName: Werewolf_QuickRig_Ctrl_Neck
+      position: {x: -0, y: 0.7644378, z: 0.41136268}
+      rotation: {x: -0.0094313435, y: 0.00000021026455, z: -0.0000003361357, w: 0.99995553}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 5
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
